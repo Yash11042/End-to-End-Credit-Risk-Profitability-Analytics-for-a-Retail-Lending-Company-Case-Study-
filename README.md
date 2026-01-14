@@ -1,5 +1,13 @@
 # Credit-Risk-Profitability-Analytics
 End-to-End Credit Risk &amp; Profitability Analytics for a Retail Lending Company
+
+<img width="736" height="409" alt="Screenshot 2026-01-14 200628" src="https://github.com/user-attachments/assets/8483c80d-7070-42ef-8659-c4d556bf4dab" />
+
+---
+<img width="727" height="393" alt="Screenshot 2026-01-14 200924" src="https://github.com/user-attachments/assets/586bc0b0-08e6-4cfa-8830-1b2409d2e249" />
+
+
+
 #  End-to-End Credit Risk & Profitability Analytics
 
 ##  Project Overview
