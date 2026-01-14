@@ -1,4 +1,4 @@
-# End-to-End-Credit-Risk-Profitability-Analytics-for-a-Retail-Lending-Company-Case-Study-
+# Credit-Risk-Profitability-Analytics
 End-to-End Credit Risk &amp; Profitability Analytics for a Retail Lending Company
 #  End-to-End Credit Risk & Profitability Analytics
 
