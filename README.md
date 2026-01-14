@@ -2,9 +2,14 @@
 End-to-End Credit Risk &amp; Profitability Analytics for a Retail Lending Company
 #  End-to-End Credit Risk & Profitability Analytics
 
+##  Project Overview
+This project analyzes a retail lending portfolio to identify **profitable growth opportunities while controlling credit risk**.  
+It demonstrates **end-to-end data analytics skills** — from messy raw data cleaning to SQL-based risk analysis and executive-level Power BI dashboards.
+
+
 ##  Business Problem
-A retail lending company wants to **increase profitability without increasing default risk**.  
-The objective of this project is to analyze **credit risk, customer behavior, and loan performance** to identify **safe growth opportunities** and **early risk signals**.
+A retail lending company faces declining profitability due to rising loan defaults.  
+The objective of this analysis is to **identify credit segments and customer behaviors that maximize interest income while minimizing default risk**, and to surface **early warning signals** for proactive risk management.
 
 ---
 
@@ -34,6 +39,10 @@ Data cleaning and transformation were performed using **Python (Pandas)** and **
   - Late Payment Flag
 - Validated referential integrity across all tables
 
+- Data cleaning decisions were documented and driven by business logic rather than convenience.  
+For example, median income was used instead of mean due to income skewness, and categorical standardization was required to prevent incorrect aggregations in downstream analysis.
+
+
 Cleaned data was loaded into **SQL using a relational schema**.
 
 ---
@@ -45,6 +54,12 @@ Advanced SQL was used to answer business-critical questions using:
 - **Window Functions**
 - **Segmentation logic**
 
+SQL was used not only for aggregation but for **advanced analytical modeling**, including:
+- Multi-step CTE pipelines
+- Window functions for ranking, trends, and customer behavior analysis
+- Risk segmentation and early warning logic
+
+
 ### Example Business Questions Answered:
 - Which credit segments generate **high interest revenue with low default rates**?
 - Which cities contribute the most to **risk-adjusted profitability**?
@@ -54,6 +69,8 @@ Advanced SQL was used to answer business-critical questions using:
 ---
 
 ##  Power BI Dashboard
+The dashboard was designed for **non-technical stakeholders**, with tooltips, conditional formatting, and key insights embedded directly into each page.
+
 An **executive-ready Power BI dashboard** was built with four pages:
 
 1. **Executive Overview** – overall portfolio health and KPIs  
@@ -70,12 +87,17 @@ An **executive-ready Power BI dashboard** was built with four pages:
 ---
 
 ##  Key Insights
-- Poor and Fair credit segments contribute **disproportionately higher default rates**
-- Higher interest rates **do not fully compensate** for increased credit risk
-- Late payment behavior acts as a strong **early warning signal**
-- The portfolio remains profitable, but **defaults significantly reduce net profit**
-
+- Credit scores below ~580 show sharply higher default rates, making them unsuitable for aggressive growth
+- Higher interest rates alone do not compensate for poor credit quality, negatively impacting net profit
+- Late payment behavior consistently appears before defaults, enabling early intervention strategies
 ---
+
+##  Business Impact
+If implemented, this analysis could help the business:
+- Improve risk-adjusted profitability by prioritizing safer credit segments
+- Reduce default losses through early identification of high-risk loans
+- Support data-driven credit policy and pricing decisions
+
 
 ##  Tools & Technologies Used
 - **Python** (Pandas, NumPy)
